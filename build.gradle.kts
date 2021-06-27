@@ -226,7 +226,7 @@ project(":koma-plotting") {
                     dependencies {
                         implementation(project(":koma-core-api"))
                         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-                        implementation("org.knowm.xchart:xchart:3.5.1")
+                        api("org.knowm.xchart:xchart:3.5.1")
                     }
                 }
             }
